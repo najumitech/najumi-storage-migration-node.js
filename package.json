@@ -1,0 +1,14 @@
+{
+  "name": "najumi-storage-migration-tool",
+  "version": "1.0.0",
+  "description": "Automated cloud migration tool for transferring buckets and objects from AWS S3, Cloudflare R2, and S3-compatible storage to Najumi Storage.",
+  "main": "migrate.js",
+  "scripts": {
+    "start": "node migrate.js"
+  },
+  "dependencies": {
+    "@najumi/storage": "^1.0.0",
+    "dotenv": "^16.4.5"
+  }
+}
+
